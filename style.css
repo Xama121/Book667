@@ -1,0 +1,33 @@
+body {
+    padding: 100px;
+}
+
+form {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+.main-modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.inner-modal {
+    width: 500px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.close {
+    text-align: end;
+}
+
+/* input {} */
